@@ -13,10 +13,19 @@
   
 }
 
-.card-frame p {
+
+.title {
+  
   color: rgb(216, 137, 216);
-  font-size: small;
 }
+
+.desc {
+  font-size: small;
+  font-style: italic;
+  color: aqua;
+}
+
+
 
 .gallery {
   display: flex;

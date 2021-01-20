@@ -6,8 +6,8 @@ function PhotoCard(props) {
     return (
         <div className="card-frame">
            <img src={props.url} alt="pics"/>
-           <p>{props.title}</p>
-           <p>{props.description}</p>
+           <p className="title">{props.title}</p>
+           <p className="desc">Description: {props.description}</p>
            
         </div>
     );
