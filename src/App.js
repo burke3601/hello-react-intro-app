@@ -1,22 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import PhotoGallery from './PhotoGallery';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1> Hello React!!!!</h1>
+        <img src="/logo192.png" />
+        <p className="message">added a className to my paragraph tag. notice the differnce between this and HTML</p>
+        
+       <PhotoGallery />
       </header>
     </div>
   );

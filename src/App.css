@@ -2,6 +2,28 @@
   text-align: center;
 }
 
+.card-frame {
+  max-width:25%;
+  outline: 3px solid orange;
+  
+}
+
+.card-frame img {
+  width: 100%;
+  
+}
+
+.card-frame p {
+  color: rgb(216, 137, 216);
+  font-size: small;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
