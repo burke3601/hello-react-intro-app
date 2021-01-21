@@ -32,9 +32,7 @@ function PhotoGallery() {
                                     title={i.title}
                                     description={i.description} />)
                 }
-                
             </div>
-
         </>
     )
 }
